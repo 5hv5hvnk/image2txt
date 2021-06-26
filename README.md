@@ -50,12 +50,6 @@ OR you could opt for manually installing the required packages below:
     * First install NLTK ([instructions](http://www.nltk.org/install.html))
     * Then install the NLTK data package "punkt" ([instructions](http://www.nltk.org/data.html))
 
-### Get Pre-trained Model
-Download [inceptionv3 finetuned parameters over 1M](https://drive.google.com/open?id=1r4-9FEIbOUyBSvA-fFVFgvhFpgee6sF5) and you will get 4 files, and make sure to put them all into this path `im2txt/model/Hugh/train/`
-* **newmodel.ckpt-2000000.data-00000-of-00001**
-* **newmodel.ckpt-2000000.index**
-* **newmodel.ckpt-2000000.meta**
-* **checkpoint**
 
 ## Generating Captions
 Your downloaded *Show and Tell* model can generate captions for any JPEG image! The
